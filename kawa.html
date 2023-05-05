@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strona z emoji kawy i tekstem</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.coffee {
+			font-size: 10rem;
+			cursor: pointer;
+		}
+
+		.text {
+			font-size: 2rem;
+			color: black;
+			transition: color 0.5s ease-in-out;
+			cursor: pointer;
+		}
+
+		.text:hover {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="text" onclick="window.location.href='https://discord.gg/wCFksNUJmG';">Wejdź do kawy</div>
+	<div class="coffee" onclick="window.location.href='https://discord.gg/wCFksNUJmG';">&#9749;</div>
+</body>
+</html>
